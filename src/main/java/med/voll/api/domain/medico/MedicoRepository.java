@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 
 public interface MedicoRepository extends JpaRepository<Medico, Long> {
 
+    //Primer cambio en intellij
 
     Page<Medico> findByActivoTrue(Pageable paginacion);
 
