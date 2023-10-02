@@ -21,7 +21,7 @@ public class Paciente {
 
     private String nombre;
     private String email;
-    private String documentoIdentidad;
+    private String documento;
     private String telefono;
     private Boolean activo;
 
@@ -33,7 +33,7 @@ public class Paciente {
         this.nombre = datos.nombre();
         this.email = datos.email();
         this.telefono = datos.telefono();
-        this.documentoIdentidad = datos.documentoIdentidad();
+        this.documento = datos.documento();
         this.direccion = new Direccion(datos.direccion());
     }
 

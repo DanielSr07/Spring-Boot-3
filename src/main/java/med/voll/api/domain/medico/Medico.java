@@ -22,6 +22,7 @@ public class Medico {
     private String email;
     private String telefono;
     private String documento;
+
     private Boolean activo;
     @Enumerated(EnumType.STRING)
     private Especialidad especialidad;
